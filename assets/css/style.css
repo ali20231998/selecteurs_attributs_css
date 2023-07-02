@@ -5,8 +5,35 @@ h2[title]
     color: blue;
 
 }
-   
+/*   
 [alt="image"]{
     width: 200px;
+}*/
+
+[alt~="image"]{
+    width: 200px;
 }
-024
+
+/*prefixe*/
+[alt^="im"]{
+   /* border: 2px solid rgb(128, 0, 0);*/
+}
+/*suffixe*/
+[alt$="1"]{
+    /*border: 2px solid red;*/
+}
+
+/* recherche de mot clé */
+[alt*="ali"]{
+    /*border: 2px solid red ;*/
+}
+
+[alt|="im"]{
+    width: 200px;
+    border: 2px solid red ;
+}
+
+
+
+
+
